@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "geo-explorer": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "C:\\workspaces\\dio\\Geo-Explorer\\geo_explorer\\mcp_server.py"
+      ],
+      "env": {
+        "PYTHONPATH": "C:\\workspaces\\dio\\Geo-Explorer"
+      }
+    }
+  }
+}

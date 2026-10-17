@@ -1,0 +1,204 @@
+{
+  "trilhas": [
+    {
+      "tecnologia": "Python",
+      "nome": "Python para Iniciantes",
+      "descricao": "Uma trilha para quem está começando a programar com Python, cobrindo lógica, estruturas e projetos práticos.",
+      "duracao": "4 semanas",
+      "nivel": "Iniciante",
+      "modulos": [
+        "Fundamentos de Python e variáveis",
+        "Estruturas condicionais e laços",
+        "Funções, listas e dicionários",
+        "Manipulação de arquivos e projetos práticos"
+      ],
+      "objetivos": [
+        "Entender a sintaxe básica da linguagem",
+        "Organizar soluções com funções",
+        "Criar pequenos programas úteis"
+      ],
+      "desafios": {
+        "iniciante": {
+          "titulo": "Calculadora de média",
+          "descricao": "Crie um programa que leia três notas e mostre a média final com feedback de aprovação.",
+          "requisitos": [
+            "Usar entrada do usuário",
+            "Calcular a média aritmética",
+            "Exibir mensagem de aprovação ou recuperação"
+          ],
+          "dica": "Use listas para guardar as notas e uma função para calcular a média."
+        },
+        "intermediario": {
+          "titulo": "Gerenciador de tarefas",
+          "descricao": "Construa uma aplicação simples para adicionar, listar e remover tarefas em um menu interativo.",
+          "requisitos": [
+            "Manipular lista de tarefas",
+            "Oferecer menu com operações CRUD",
+            "Salvar tarefas em memória"
+          ],
+          "dica": "Separe as operações em funções: adicionar, remover, listar e sair."
+        },
+        "avancado": {
+          "titulo": "Sistema de registro de alunos",
+          "descricao": "Crie um sistema que cadastre alunos, armazene notas e gere relatórios por disciplina.",
+          "requisitos": [
+            "Usar dicionários e listas",
+            "Permitir cadastro e consulta",
+            "Gerar relatório final por aluno"
+          ],
+          "dica": "Estruture os dados em um único objeto principal e devolva relatórios formatados."
+        }
+      }
+    },
+    {
+      "tecnologia": "JavaScript",
+      "nome": "JavaScript moderno",
+      "descricao": "Uma trilha para aprender a base do JavaScript, interatividade no navegador e lógica de programação.",
+      "duracao": "5 semanas",
+      "nivel": "Intermediario",
+      "modulos": [
+        "Sintaxe e variáveis",
+        "Funções e eventos",
+        "Manipulação do DOM",
+        "Requisições e APIs"
+      ],
+      "objetivos": [
+        "Construir interfaces dinâmicas",
+        "Usar eventos para responder à interação do usuário",
+        "Consumo de APIs em aplicações reais"
+      ],
+      "desafios": {
+        "iniciante": {
+          "titulo": "Validador de formulário",
+          "descricao": "Crie uma tela simples que valide nome e e-mail antes do envio do formulário.",
+          "requisitos": [
+            "Ler os campos do formulário",
+            "Exibir mensagens de erro",
+            "Bloquear envio quando houver campos inválidos"
+          ],
+          "dica": "Use condicionais para verificar a presença de texto e o formato do e-mail."
+        },
+        "intermediario": {
+          "titulo": "Lista de tarefas com DOM",
+          "descricao": "Implemente uma lista de tarefas com botão para adicionar, concluir e remover itens.",
+          "requisitos": [
+            "Manipular elementos do DOM",
+            "Adicionar eventos de clique",
+            "Persistir tarefas no localStorage"
+          ],
+          "dica": "Busque elementos pelo id e atualize a interface após cada ação."
+        },
+        "avancado": {
+          "titulo": "Dashboard de dados",
+          "descricao": "Desenvolva um painel que consuma dados de uma API eRenderize gráficos simples em tela.",
+          "requisitos": [
+            "Solicitar dados via fetch",
+            "Exibir informações em cards e gráficos",
+            "Tratar erros de rede"
+          ],
+          "dica": "Mantenha uma função de carregamento e outra para renderizar os dados."
+        }
+      }
+    },
+    {
+      "tecnologia": "Java",
+      "nome": "Java na prática",
+      "descricao": "Uma trilha focada em fundamentos de Java, orientação a objetos e desenvolvimento de aplicações robustas.",
+      "duracao": "6 semanas",
+      "nivel": "Intermediario",
+      "modulos": [
+        "Tipos primitivos e operadores",
+        "Classes, objetos e encapsulamento",
+        "Herança e polimorfismo",
+        "Coleções e exceções"
+      ],
+      "objetivos": [
+        "Entender a orientação a objetos",
+        "Construir classes reutilizáveis",
+        "Aplicar boas práticas de exception handling"
+      ],
+      "desafios": {
+        "iniciante": {
+          "titulo": "Sistema de banco",
+          "descricao": "Crie uma classe Conta com operações de depósito, saque e saldo.",
+          "requisitos": [
+            "Definir atributos privados",
+            "Implementar métodos públicos",
+            "Controlar saldos negativos"
+          ],
+          "dica": "Use encapsulamento e valide o valor do saque antes de atualizar o saldo."
+        },
+        "intermediario": {
+          "titulo": "Agenda de contatos",
+          "descricao": "Construa uma aplicação para cadastrar, buscar e listar contatos com diferentes categorias.",
+          "requisitos": [
+            "Usar coleções",
+            "Implementar busca por nome",
+            "Organizar por categoria"
+          ],
+          "dica": "Use Map para indexar contatos e List para manter a ordem."
+        },
+        "avancado": {
+          "titulo": "Gestão de pedidos",
+          "descricao": "Desenvolva um sistema de pedidos com clientes, produtos e status de pagamento.",
+          "requisitos": [
+            "Modelar classes com relacionamento",
+            "Tratar exceções de negócio",
+            "Calcular total do pedido"
+          ],
+          "dica": "Crie classes de domínio bem separadas por responsabilidade."
+        }
+      }
+    },
+    {
+      "tecnologia": "Data Science",
+      "nome": "Data Science e análise de dados",
+      "descricao": "Uma trilha que introduz limpeza, análise e visualização de dados para tomada de decisão.",
+      "duracao": "6 semanas",
+      "nivel": "Avancado",
+      "modulos": [
+        "Coleta e organização de dados",
+        "Limpeza e exploração",
+        "Visualização e análise estatística",
+        "Modelagem e storytelling com dados"
+      ],
+      "objetivos": [
+        "Identificar padrões em dados reais",
+        "Preparar conjuntos de dados",
+        "Comunicar insights de forma clara"
+      ],
+      "desafios": {
+        "iniciante": {
+          "titulo": "Análise de vendas",
+          "descricao": "Crie um relatório que calcule total de vendas, média e produto mais vendido.",
+          "requisitos": [
+            "Agrupar dados por categoria",
+            "Calcular totais e médias",
+            "Apresentar o resultado em texto"
+          ],
+          "dica": "Use estruturas de dicionário para agregar os valores por produto ou categoria."
+        },
+        "intermediario": {
+          "titulo": "Limpeza de dataset",
+          "descricao": "Identifique valores ausentes, normalize colunas e prepare um dataset para análise.",
+          "requisitos": [
+            "Tratar campos vazios",
+            "Padronizar texto",
+            "Gerar dataset pronto para análise"
+          ],
+          "dica": "Defina um fluxo de limpeza e documente cada etapa."
+        },
+        "avancado": {
+          "titulo": "Previsão de churn",
+          "descricao": "Desenvolva um fluxo de análise para prever clientes em risco de cancelamento usando dados históricos.",
+          "requisitos": [
+            "Preparar features",
+            "Aplicar modelo simples",
+            "Interpretar resultados"
+          ],
+          "dica": "Comece com um modelo simples e compare suas métricas antes de avançar."
+        }
+      }
+    }
+  ]
+}
